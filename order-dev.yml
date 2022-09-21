@@ -1,0 +1,21 @@
+env: dev5
+server:
+  port: 8083
+  error:
+    include-exception: true
+    include-message: always
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/SpringCloud_Sell?useUnicode=true&characterEncoding=UTF-8&autoReconnectForPools=true&useSSL=false&autoReconnectForPools=true&useSSL=false&serverTimezone=GMT%2b8
+  jpa:
+    show-sql: true
+
+
+
+
+
